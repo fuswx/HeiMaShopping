@@ -1,0 +1,8 @@
+com\fuswx\heimashopping\Bean\Swiper.class
+com\fuswx\heimashopping\Bean\SwiperData.class
+com\fuswx\heimashopping\Mapper\IndexMapper.class
+com\fuswx\heimashopping\ServletInitializer.class
+com\fuswx\heimashopping\Service\impl\IndexServiceImpl.class
+com\fuswx\heimashopping\Controller\IndexController.class
+com\fuswx\heimashopping\Service\IndexService.class
+com\fuswx\heimashopping\HeiMaShoppingApplication.class
