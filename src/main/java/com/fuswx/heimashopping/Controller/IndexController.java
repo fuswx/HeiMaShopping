@@ -1,7 +1,6 @@
 package com.fuswx.heimashopping.Controller;
 
 import com.fuswx.heimashopping.Bean.Swiper;
-import com.fuswx.heimashopping.Bean.SwiperData;
 import com.fuswx.heimashopping.Service.IndexService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
