@@ -2,7 +2,7 @@ spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     type: com.mysql.cj.jdbc.MysqlConnectionPoolDataSource
-    url: jdbc:mysql://47.95.112.136:3306/heimashopping
+    url: jdbc:mysql://localhost:3306/heimashopping
     username: root
     password: yzc13569291231
 
@@ -10,4 +10,5 @@ server:
   port: 8082
   servlet:
     context-path: /Shopping
+
 

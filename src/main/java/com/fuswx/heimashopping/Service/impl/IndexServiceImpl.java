@@ -8,6 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+
 @Service
 @Transactional
 public class IndexServiceImpl implements IndexService {
@@ -18,5 +21,10 @@ public class IndexServiceImpl implements IndexService {
     @Override
     public Swiper getSwiperData() {
         return new Swiper(0,indexMapper.getSwiperData());
+    }
+
+    @Override
+    public ArrayList<HashMap<Object, Object>> getClass(String formName) {
+        return indexMapper.getClass(formName);
     }
 }
